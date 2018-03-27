@@ -50,7 +50,6 @@
         <gear.cglib.version>3.2.6</gear.cglib.version>
         <gear.asm-all.version>5.2</gear.asm-all.version>
         <gear.lombok.version>1.16.20</gear.lombok.version>
-        <gear.version>3.2.11-SNAPSHOT</gear.version>
 		<java.version>1.8</java.version>
 		<spring.cloud.version>Dalston.SR4</spring.cloud.version>
     </properties>
@@ -92,21 +91,6 @@
     				<version>${gear.lombok.version}</version>
     				<scope>provided</scope>
     			</dependency>-->
-    			<dependency>
-    				<groupId>com.github.Andy-Shao</groupId>
-    				<artifactId>Gear</artifactId>
-    				<version>${gear.version}</version>
-    			</dependency>
-    			<dependency>
-    				<groupId>com.github.Andy-Shao</groupId>
-    				<artifactId>GearEE</artifactId>
-    				<version>${gear.version}</version>
-    			</dependency>
-    			<dependency>
-    				<groupId>com.github.Andy-Shao</groupId>
-    				<artifactId>GearEE-Spring</artifactId>
-    				<version>${gear.version}</version>
-    			</dependency>
     		</dependencies>
     </dependencyManagement>
 
