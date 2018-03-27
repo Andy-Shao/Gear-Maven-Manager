@@ -15,8 +15,8 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Gear</name>
-    <description>Enhance and formating the coding of JDK</description>
-    <url>https://github.com/Andy-Shao/Gear</url>
+    <description>Gear maven manage pom</description>
+    <url>https://github.com/Andy-Shao/Gear-Maven-Manager</url>
     <inceptionYear>2018</inceptionYear>
     <licenses>
         <license>
