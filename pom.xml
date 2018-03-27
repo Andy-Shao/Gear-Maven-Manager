@@ -53,6 +53,7 @@
         <gear.lombok.version>1.16.20</gear.lombok.version>
         <gear.mockito-all.version>1.10.19</gear.mockito-all.version>
         <gear.javaee-web-api.version>7.0</gear.javaee-web-api.version>
+        <gear.apache-zookeeper.version>3.4.8</gear.apache-zookeeper.version>
 		<java.version>1.8</java.version>
 		<spring.cloud.version>Dalston.SR4</spring.cloud.version>
     </properties>
@@ -99,6 +100,11 @@
     				<groupId>javax</groupId>
     				<artifactId>javaee-web-api</artifactId>
     				<version>${gear.javaee-web-api.version}</version>
+    			</dependency>
+    			<dependency>
+    				<groupId>org.apache.zookeeper</groupId>
+    				<artifactId>zookeeper</artifactId>
+    				<version>${gear.apache-zookeeper.version}</version>
     			</dependency>
     		</dependencies>
     </dependencyManagement>
