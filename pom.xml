@@ -44,12 +44,15 @@
     </issueManagement>
 
     <properties>
+    		<gear.dependencies.version>0.0.1-SNAPSHOT</gear.dependencies.version>
         <gear.build.sourceEncoding>UTF-8</gear.build.sourceEncoding>
         <gear.junit.version>4.12</gear.junit.version>
         <gear.hamcrest-alll.version>1.3</gear.hamcrest-alll.version>
         <gear.cglib.version>3.2.6</gear.cglib.version>
         <gear.asm-all.version>5.2</gear.asm-all.version>
         <gear.lombok.version>1.16.20</gear.lombok.version>
+        <gear.mockito-all.version>1.10.19</gear.mockito-all.version>
+        <gear.javaee-web-api.version>7.0</gear.javaee-web-api.version>
 		<java.version>1.8</java.version>
 		<spring.cloud.version>Dalston.SR4</spring.cloud.version>
     </properties>
@@ -63,12 +66,13 @@
     				<type>pom</type>
     				<scope>import</scope>
     			</dependency>
-    			<!--<dependency>
-    				<groupId>junit</groupId>
-    				<artifactId>junit</artifactId>
-    				<version>${gear.junit.version}</version>
-    				<scope>test</scope>
-    			</dependency>-->
+    			<dependency>
+    				<groupId>com.github.Andy-Shao</groupId>
+    				<artifactId>Gear-dependencies</artifactId>
+    				<version>${gear.dependencies.version}</version>
+    				<type>pom</type>
+    				<scope>import</scope>
+    			</dependency>
     			<dependency>
     				<groupId>org.hamcrest</groupId>
     				<artifactId>hamcrest-all</artifactId>
@@ -85,12 +89,17 @@
     				<artifactId>asm-all</artifactId>
     				<version>${gear.asm-all.version}</version>
     			</dependency>
-    			<!--<dependency>
-    				<groupId>org.projectlombok</groupId>
-    				<artifactId>lombok</artifactId>
-    				<version>${gear.lombok.version}</version>
-    				<scope>provided</scope>
-    			</dependency>-->
+    			<dependency>
+    				<groupId>org.mockito</groupId>
+    				<artifactId>mockito-all</artifactId>
+    				<version>${gear.mockito-all.version}</version>
+    				<scope>test</scope>
+    			</dependency>
+    			<dependency>
+    				<groupId>javax</groupId>
+    				<artifactId>javaee-web-api</artifactId>
+    				<version>${gear.javaee-web-api.version}</version>
+    			</dependency>
     		</dependencies>
     </dependencyManagement>
 
