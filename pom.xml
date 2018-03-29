@@ -12,7 +12,7 @@
     <groupId>com.github.Andy-Shao</groupId>
     <artifactId>Gear-Maven-Manager</artifactId>
     <!--<version>4.0-SNAPSHOT</version>-->
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Gear</name>
     <description>Gear maven manage pom</description>
@@ -44,7 +44,7 @@
     </issueManagement>
 
     <properties>
-        <gear.dependencies.version>0.0.1-SNAPSHOT</gear.dependencies.version>
+        <gear.dependencies.version>1.0.0-SNAPSHOT</gear.dependencies.version>
         <gear.build.sourceEncoding>UTF-8</gear.build.sourceEncoding>
         <gear.junit.version>4.12</gear.junit.version>
         <gear.hamcrest-alll.version>1.3</gear.hamcrest-alll.version>
