@@ -44,7 +44,7 @@
     </issueManagement>
 
     <properties>
-        <gear.dependencies.version>1.0.1-SNAPSHOT</gear.dependencies.version>
+        <gear.dependencies.version>1.0.2-SNAPSHOT</gear.dependencies.version>
         <gear.build.sourceEncoding>UTF-8</gear.build.sourceEncoding>
         <gear.junit.version>4.12</gear.junit.version>
         <gear.hamcrest-alll.version>1.3</gear.hamcrest-alll.version>
