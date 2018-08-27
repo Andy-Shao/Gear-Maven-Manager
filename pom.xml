@@ -48,7 +48,7 @@
         <gear.build.sourceEncoding>UTF-8</gear.build.sourceEncoding>
         <gear.junit.version>4.12</gear.junit.version>
         <gear.hamcrest-alll.version>1.3</gear.hamcrest-alll.version>
-        <gear.cglib.version>3.2.6</gear.cglib.version>
+        <gear.cglib.version>3.2.7</gear.cglib.version>
         <gear.asm-all.version>5.2</gear.asm-all.version>
         <gear.lombok.version>1.16.20</gear.lombok.version>
         <gear.mockito-all.version>1.10.19</gear.mockito-all.version>
@@ -57,6 +57,7 @@
         <java.version>1.8</java.version>
         <spring.cloud.version>Dalston.SR4</spring.cloud.version>
         <lombok.version>1.18.0</lombok.version>
+        <neo4j.java.driver.version>1.6.2</neo4j.java.driver.version>
     </properties>
     
     <dependencyManagement>
@@ -107,6 +108,11 @@
                 <artifactId>zookeeper</artifactId>
                 <version>${gear.apache-zookeeper.version}</version>
             </dependency>
+            <dependency>
+            <groupId>org.neo4j.driver</groupId>
+            <artifactId>neo4j-java-driver</artifactId>
+            <version>${neo4j.java.driver.version}</version>
+        </dependency>
         </dependencies>
     </dependencyManagement>
 
