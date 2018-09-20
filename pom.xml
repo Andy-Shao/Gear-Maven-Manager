@@ -12,7 +12,7 @@
     <groupId>com.github.Andy-Shao</groupId>
     <artifactId>Gear-Maven-Manager</artifactId>
     <!--<version>4.0-SNAPSHOT</version>-->
-    <version>1.0.6-SNAPSHOT</version>
+    <version>1.1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Gear</name>
     <description>Gear maven manage pom</description>
@@ -48,15 +48,13 @@
         <gear.build.sourceEncoding>UTF-8</gear.build.sourceEncoding>
         <gear.junit.version>4.12</gear.junit.version>
         <gear.hamcrest-alll.version>1.3</gear.hamcrest-alll.version>
-        <gear.cglib.version>3.2.8</gear.cglib.version>
-        <gear.asm-all.version>5.2</gear.asm-all.version>
-        <gear.mockito-all.version>1.10.19</gear.mockito-all.version>
-        <gear.javaee-web-api.version>7.0</gear.javaee-web-api.version>
-        <gear.apache-zookeeper.version>3.4.8</gear.apache-zookeeper.version>
+        <gear.cglib.version>[3.2.8,3.2.99]</gear.cglib.version>
+        <gear.mockito-all.version>[1.10.19,1.10.99]</gear.mockito-all.version>
+        <gear.apache-zookeeper.version>[3.4.8,3.4.99]</gear.apache-zookeeper.version>
         <java.version>1.8</java.version>
-        <spring.cloud.version>Dalston.SR4</spring.cloud.version>
-        <lombok.version>1.18.0</lombok.version>
-        <neo4j.java.driver.version>1.6.2</neo4j.java.driver.version>
+        <spring.cloud.version>Edgware.RELEASE</spring.cloud.version>
+        <lombok.version>[1.18.0,1.18.99]</lombok.version>
+        <neo4j.java.driver.version>[1.6.2,1.6.99]</neo4j.java.driver.version>
     </properties>
     
     <dependencyManagement>
