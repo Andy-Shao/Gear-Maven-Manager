@@ -12,7 +12,7 @@
     <groupId>com.github.Andy-Shao</groupId>
     <artifactId>Gear-Maven-Manager</artifactId>
     <!--<version>4.0-SNAPSHOT</version>-->
-    <version>1.2.2-SNAPSHOT</version>
+    <version>1.2.2.RELEASE</version>
     <packaging>pom</packaging>
     <name>Gear</name>
     <description>Gear maven manage pom</description>
@@ -44,7 +44,7 @@
     </issueManagement>
 
     <properties>
-        <gear.dependencies.version>1.2.2-SNAPSHOT</gear.dependencies.version>
+        <gear.dependencies.version>1.2.2.RELEASE</gear.dependencies.version>
         <gear.build.sourceEncoding>UTF-8</gear.build.sourceEncoding>
         <gear.junit.version>4.12</gear.junit.version>
         <gear.junit.jupiter.version>5.4.2</gear.junit.jupiter.version>
