@@ -48,7 +48,7 @@
         <gear.build.sourceEncoding>UTF-8</gear.build.sourceEncoding>
         <gear.junit.version>4.12</gear.junit.version>
         <gear.hamcrest-alll.version>1.3</gear.hamcrest-alll.version>
-        <gear.cglib.version>3.2.10</gear.cglib.version>
+        <gear.cglib.version>3.3.0</gear.cglib.version>
         <gear.mockito-all.version>1.10.19</gear.mockito-all.version>
         <gear.apache-zookeeper.version>3.4.13</gear.apache-zookeeper.version>
         <java.version>1.8</java.version>
