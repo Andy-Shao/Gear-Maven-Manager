@@ -56,6 +56,8 @@
         <lombok.version>1.18.12</lombok.version>
         <neo4j.java.driver.version>4.1.1</neo4j.java.driver.version>
         <gear.guava.version>29.0-jre</gear.guava.version>
+        <org.mybatis.version>3.5.5</org.mybatis.version>
+        <mybatis-spring.version>2.0.5</mybatis-spring.version>
     </properties>
     
     <dependencyManagement>
@@ -74,12 +76,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-<!--            <dependency>-->
-<!--                <groupId>org.hamcrest</groupId>-->
-<!--                <artifactId>hamcrest-all</artifactId>-->
-<!--                <version>${gear.hamcrest-alll.version}</version>-->
-<!--                <scope>test</scope>-->
-<!--            </dependency>-->
             <dependency>
                 <groupId>cglib</groupId>
                 <artifactId>cglib</artifactId>
@@ -116,6 +112,16 @@
         		<artifactId>guava</artifactId>
         		<version>${gear.guava.version}</version>
         	</dependency>
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>${org.mybatis.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis-spring</artifactId>
+                <version>${mybatis-spring.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
