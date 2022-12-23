@@ -44,7 +44,7 @@
     </issueManagement>
 
     <properties>
-        <gear.dependencies.version>2.0.4.RELEASE</gear.dependencies.version>
+        <gear.dependencies.version>2.0.5-SNAPSHOT</gear.dependencies.version>
         <gear.build.sourceEncoding>UTF-8</gear.build.sourceEncoding>
         <gear.cglib.version>3.3.0</gear.cglib.version>
         <gear.apache-zookeeper.version>3.6.1</gear.apache-zookeeper.version>
