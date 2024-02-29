@@ -51,7 +51,7 @@
         <java.version>17</java.version>
         <spring.cloud.version>2023.0.0</spring.cloud.version>
 <!--        <lombok.version>1.18.26</lombok.version>-->
-        <neo4j.java.driver.version>4.3.3</neo4j.java.driver.version>
+        <neo4j.java.driver.version>5.17.0</neo4j.java.driver.version>
         <gear.guava.version>33.0.0-jre</gear.guava.version>
         <org.mybatis.version>3.5.5</org.mybatis.version>
         <mybatis-spring.version>2.0.5</mybatis-spring.version>
