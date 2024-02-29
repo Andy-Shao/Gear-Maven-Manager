@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.5.14</version>
+        <version>3.2.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     
@@ -46,13 +46,13 @@
     <properties>
         <gear.dependencies.version>3.0.0.RELEASE</gear.dependencies.version>
         <gear.build.sourceEncoding>UTF-8</gear.build.sourceEncoding>
-        <gear.cglib.version>3.3.0</gear.cglib.version>
+<!--        <gear.cglib.version>3.3.0</gear.cglib.version>-->
         <gear.apache-zookeeper.version>3.6.1</gear.apache-zookeeper.version>
         <java.version>17</java.version>
-        <spring.cloud.version>2020.0.6</spring.cloud.version>
-        <lombok.version>1.18.26</lombok.version>
+        <spring.cloud.version>2023.0.0</spring.cloud.version>
+<!--        <lombok.version>1.18.26</lombok.version>-->
         <neo4j.java.driver.version>4.3.3</neo4j.java.driver.version>
-        <gear.guava.version>31.1-jre</gear.guava.version>
+<!--        <gear.guava.version>31.1-jre</gear.guava.version>-->
         <org.mybatis.version>3.5.5</org.mybatis.version>
         <mybatis-spring.version>2.0.5</mybatis-spring.version>
     </properties>
@@ -73,11 +73,11 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <dependency>
-                <groupId>cglib</groupId>
-                <artifactId>cglib</artifactId>
-                <version>${gear.cglib.version}</version>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>cglib</groupId>-->
+<!--                <artifactId>cglib</artifactId>-->
+<!--                <version>${gear.cglib.version}</version>-->
+<!--            </dependency>-->
             <dependency>
                 <groupId>org.ow2.asm</groupId>
                 <artifactId>asm</artifactId>
@@ -93,11 +93,11 @@
             <artifactId>neo4j-java-driver</artifactId>
             <version>${neo4j.java.driver.version}</version>
         	</dependency>
-        	<dependency>
-        		<groupId>com.google.guava</groupId>
-        		<artifactId>guava</artifactId>
-        		<version>${gear.guava.version}</version>
-        	</dependency>
+<!--        	<dependency>-->
+<!--        		<groupId>com.google.guava</groupId>-->
+<!--        		<artifactId>guava</artifactId>-->
+<!--        		<version>${gear.guava.version}</version>-->
+<!--        	</dependency>-->
             <dependency>
                 <groupId>org.mybatis</groupId>
                 <artifactId>mybatis</artifactId>
@@ -126,6 +126,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
+                <version>3.3.0</version>
                 <configuration>
                     <archive>
                         <manifest>
@@ -137,6 +138,7 @@
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
+                <version>1.6.13</version>
                 <extensions>true</extensions>
                 <configuration>
                     <serverId>ossrh</serverId>
@@ -147,6 +149,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
+                <version>3.1.0</version>
                 <executions>
                     <execution>
                         <id>sign-artifacts</id>
@@ -160,6 +163,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
@@ -169,6 +173,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
+                <version>3.3.1</version>
                 <configuration>
                     <encoding>${gear.build.sourceEncoding}</encoding>
                 </configuration>
@@ -176,6 +181,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.6.3</version>
                 <configuration>
                     <charset>${gear.build.sourceEncoding}</charset>
                     <encoding>${gear.build.sourceEncoding}</encoding>
@@ -193,6 +199,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
+                <version>3.3.0</version>
                 <executions>
                     <execution>
                         <goals>
